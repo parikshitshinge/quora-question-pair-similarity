@@ -1,4 +1,4 @@
-Question pair similarity
+Quora question pair similarity
 ==============================
 
 Predicts whether two questions or sentences are similar to each other. Helps in deduplication of questions asked in forums like Quora, Reddit etc. Uses NLP techniques to build features.
@@ -28,23 +28,23 @@ Project Organization
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
     |
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   ├── app.py         <- Initiator for flask app
-    │   ├── exception.py   <- Custom exception handler
-    │   ├── logger.py      <- Custom logger
-    │   ├── utils.py       <- Set of custom utilities functions
-    │   │
-    │   ├── data           <- Scripts to extract data and transform data
-    │   │   ├── data_ingestion.py
-    │   │   └── data_transformation.py
-    │   │
-    │   ├── pipelines      <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── train_pipeline.py
-    │   │   └── predict_pipeline.py
-    │   │
-    │   └── templates      <- Web pages to host to take real time inputs and provide predictions
+    └── src                <- Source code for use in this project.
+        ├── __init__.py    <- Makes src a Python module
+        ├── app.py         <- Initiator for flask app
+        ├── exception.py   <- Custom exception handler
+        ├── logger.py      <- Custom logger
+        ├── utils.py       <- Set of custom utilities functions
+        │
+        ├── data           <- Scripts to extract data and transform data
+        │   ├── data_ingestion.py
+        │   └── data_transformation.py
+        │
+        ├── pipelines      <- Scripts to train models and then use trained models to make
+        │   │                 predictions
+        │   ├── train_pipeline.py
+        │   └── predict_pipeline.py
+        │
+        └── templates      <- Web pages to host to take real time inputs and provide predictions
             ├── index.html
             └── home.html
 
