@@ -1,7 +1,9 @@
 # Required libraries
 pandas
 numpy
-
+matplotlib
+seaborn
+nltk
 
 # local package
 -e .
