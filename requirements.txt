@@ -4,6 +4,13 @@ numpy
 matplotlib
 seaborn
 nltk
+nltk.download('wordnet')
+nltk.download('punkt')
+thefuzz
+python-Levenshtein
+scikit-learn
+spacy
+sqlalchemy
 
 # local package
 -e .
