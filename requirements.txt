@@ -11,6 +11,7 @@ python-Levenshtein
 scikit-learn
 spacy
 sqlalchemy
+xgboost
 
 # local package
 -e .

@@ -1,0 +1,8 @@
+[ 2023-04-23 14:58:41,011 ] 25 root - INFO - Entered the data ingestion method
+[ 2023-04-23 14:58:42,355 ] 29 root - INFO - Read the train.csv dataset as dataframe
+[ 2023-04-23 14:58:44,689 ] 37 root - INFO - Ingestion of the data is completed
+[ 2023-04-23 14:58:44,714 ] 145 root - INFO - Obtaining preprocessed data
+[ 2023-04-23 14:58:45,896 ] 50 root - INFO - Read raw data completed
+[ 2023-04-23 14:58:45,897 ] 52 root - INFO - Data transformation started
+[ 2023-04-23 15:10:05,034 ] 57 root - INFO - Preprocessed 'question1'
+[ 2023-04-23 15:18:19,393 ] 59 root - INFO - Preprocessed 'question2'
